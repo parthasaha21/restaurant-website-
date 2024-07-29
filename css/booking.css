@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* booking form  */
+.booking-section{
+    margin-top: 50px;
+    height: auto;
+}
+.book-div{
+    text-align: center;
+    margin-top: 100px;
+}
+.book-div h2{
+    padding-bottom: 20px;
+}
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index:99;
+}
+
+.booking-form {
+    background-color: white;
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 15px;
+    min-width: calc(50% - 15px);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group.full-width {
+    min-width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    appearance: none;
+    position: relative;
+    background: white;
+}
+
+.form-group input[type="time"],
+.form-group input[type="number"] {
+    padding-right: 30px;
+}
+
+.form-group input[type="time"]::after,
+.form-group input[type="number"]::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.form-group input:focus,
+.form-group input:hover {
+    /* border-color:; */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+.form-group input[type="submit"] {
+    background-color:#AD343E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius:20px;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    font-style: italic;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color:black;
+    transition: background-color 0.3s;
+}
+/* map */
+.map iframe{
+    width: 100%;
+    height: 567px;
+}
+.map{
+    transform: translateY(-165px);
+    z-index:1;
+    position: relative;
+}
+.new-from{
+    position: relative;
+}
+/* responsive */
+@media (max-width: 600px) {
+    .form-group {
+        min-width: 100%;
+        margin-right: 0;
+    }
+}

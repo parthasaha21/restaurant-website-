@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font cdn -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+ >
+ <!-- aos -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <!-- csss link -->
+ <link rel="stylesheet" href="./css/styel.css">
+ <link rel="stylesheet" href="./css/manu.css">
+ <title>Manu</title>
+</head>
+<body>
+    <nav>
+        <!-- top bar  -->
+        <section class="top-bar-section">
+            <div class="top-bar container">
+                <div class="number">
+                    <div class="div1">
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            (414) 857 - 0107
+                        </p>
+                    </div>
+                    <div class="div1">
+                        <p>
+                            <i class="fa-solid fa-envelope"></i>
+                            yummy@bistrobliss
+                        </p>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </section>
+        <!-- navbar -->
+        <section class="navbar-section ">
+            <div class="navbar container">
+                <div class="logo">
+                    <div class="image">
+                        <img src="./image/Logo (3).png" alt="">
+                    </div>
+                </div>
+                <div class="nav-list">
+                    <ul class="nav-items">
+                        <li class="active">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./aboutUs.html">About</a>
+                        </li>
+                        <li>
+                            <a href="./manu.html">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="./blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="./contactUs.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="booking-div">
+                    <div class="btn">
+                        <button class="button-17" role="button">
+                            <a href="./booking.html">Book A Table</a>
+                        </button>
+                    </div>
+                    <div class="toggler" id="toggler-bar">
+                        <i class="fa-solid fa-bars" id="icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </nav>
+<section class="bg-color">
+    <div class="book-div" >
+        <h2 class="heading-line ">
+            Our Menu
+        </h2>
+        <p>We consider all the drivers of change gives you the components <br>
+             you need to change to create a truly happens.</p>
+            </div>
+     <!-- <main>
+
+                <div class="containe container">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="./image/pexels-daniela-constantini-5591664 1.png">
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <span>$ 19.99</span>
+                                <h5>Butterscotch Cake</h5>
+                                <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                                    <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="./image/pexels-maksim-goncharenok-4773769 1.png">
+                                
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <span>$ 19.99</span>
+                                <h5>Butterscotch Cake</h5>
+                                <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                                    <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="./image/pexels-nadin-sh-12956424 1.png">
+                               
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <span>$ 19.99</span>
+                                <h5>Butterscotch Cake</h5>
+                                <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                                    <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="./image/pexels-ruslan-khmelevsky-7845121 1.png">
+                               
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <span>$ 19.99</span>
+                                <h5>Butterscotch Cake</h5>
+                                <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                                    <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+     </main> -->
+    
+
+
+<!-- new one -->
+
+<main class="container">
+
+    <navbar>
+      <button class='active ' data-tag='all'>All</button>
+      <button data-tag='apetizers'>Breakfast</button>
+      <button data-tag='entries'>Lunch</button>
+      <button data-tag='desserts'>Desserts</button>
+      <button data-tag='drinks'>Drinks</button>
+    </navbar>
+    <ul class='menu'>
+      <li class='item' data-type='desserts'>
+        <img src='./image/food-world.png'>
+        <h2>Chocolate Ice Cream <span><span>&#8377;</span> 380</span></h2></h2>
+        <p>Creamy rich cholcoate ice cream with a sprinkle of nuts and fruits</p>
+          
+    </li>
+      <li class='item' data-type='drinks'>
+        <img src='./image/donuts-hut.png'>
+        <h2>Classic Pilsner <span><span>&#8377;</span> 490</span></h2>
+        <p>A pale lager with a crisp, refreshing taste that's lightly hopped</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/pizza-hub.png'>
+        <h2>Pesto Pasta<span><span>&#8377;</span> 360</span></h2>
+        <p>Freshly made Pesto pasta with sliced tomatoes</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/donuthut.png'>
+        <h2>Vegetarian Delight<span><span>&#8377;</span> 250</span></h2>
+        <p>Cooked rice with quinoa salad, pinto beans, and asparagus</p>
+      </li>
+      <li class='item' data-type='apetizers'>
+        <img src='./image/ruby-tuesday.png'>
+        <h2>House Salad<span><span>&#8377;</span> 180</span></h2>
+        <p>Fresh local vegetables pair with homemade sausages</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/kuakata.png'>
+        <h2>Coconut Rice<span><span>&#8377;</span>399</span></h2>
+        <p>Indonesian coconut rice pair with fried pork, boiled eggs and cucumber</p>
+      </li>
+      <li class='item' data-type='apetizers'>
+        <img src='./image/red-square.png'>
+        <h2>Pumpkin Soup<span><span>&#8377;</span> 169</span></h2>
+        <p>Homemade pumpkin soup with pumpkin seeds and blue cheese</p>
+      </li>
+      <li class='item' data-type='apetizers'>
+        <img src='./image/taco-bell.png'>
+        <h2>Tomato Soup<span><span>&#8377;</span> 189</span></h2>
+        <p>Slow cooked tomato soup with a side of classic Dutch bread</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/cheese-burger.png'>
+        <h2>Mississipi Gumbo<span><span>&#8377;</span> 180</span></h2>
+        <p>Southern cajun flavored gumbo with shrimps and a slice of garlic bread</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/toffes-cake.png'>
+        <h2>Porterhouse Special<span><span>&#8377;</span> 580</span></h2>
+        <p>Succulent porterhouse steak with a side of mashed potato and brocoli</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/dancake.png'>
+        <h2>Jamaican Chicken<span><span>&#8377;</span> 980</span></h2>
+        <p>Exotic Jamaican chicken pair with mango salad, rice and peas</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/crispy-sandwitch.png'>
+        <h2>Classic Pork Chop<span><span>&#8377;</span> 1000</span></h2>
+        <p>Succluently grilled pork chop pair with garlic fries</p>
+      </li>
+      <li class='item' data-type='desserts'>
+        <img src='./image/thai-soup.png'>
+        <h2>Rose Pudding<span><span>&#8377;</span> 388</span></h2>
+        <p>Rose flavor tapioca pudding</p>
+      </li>
+      <li class='item' data-type='apetizers'>
+        <img src='./image/discount-item-1.png'>
+        <h2>Spring Rolls<span><span>&#8377;</span>999</span></h2>
+        <p>Indonesian style spring roll fill with carrots, celery, and shrimp</p>
+      </li>
+      <li class='item' data-type='desserts'>
+        <img src='./image/discount-item-2.png'>
+        <h2>Blueberry Cheese Cake<span><span>&#8377;</span> 1170</span></h2>
+        <p>Rich creamy melt in your mouth blueberry cheese cake</p>
+      </li>
+      <li class='item' data-type='drinks'>
+        <img src='./image/discount-item-3.png'>
+        <h2>Lemonade<span><span>&#8377;</span> 1678</span></h2>
+        <p>Freshly squeeze lemonade with dash of honey</p>
+      </li>
+      <li class='item' data-type='desserts'>
+        <img src='./image/discount-item-4.png'>
+        <h2>Strawberry Banana Crepe<span><span>&#8377;</span> 620</span></h2>
+        <p>Classic souther strawberry banana crepe</p>
+      </li>
+      <li class='item' data-type='apetizers'>
+        <img src='./image/noodles.png'>
+        <h2>Clam Chowder<span><span>&#8377;</span> 1280</span></h2>
+        <p>Classic New England cleam chowder</p>
+      </li>
+      <li class='item' data-type='entries'>
+        <img src='./image/steak.png'>
+        <h2>Grilled Salmon<span><span>&#8377;</span> 1480</span></h2>
+        <p>Freshly grilled salmon with side of beets salad, caramel carrots, and garlic sauce</p>
+      </li>
+      <li class='item' data-type='drinks'>
+        <img src='./image/sub-sandwich.png'>
+        <h2>Expresso<span><span>&#8377;</span>2340</span></h2>
+        <p>Classic freshly grounded Italian expresso</p>
+      </li>
+    </ul>
+  </main>
+</section>
+
+
+     <!-- footer part -->
+<footer>
+    <div class="footer-div container">
+         <div class="footer1" >
+            <img src="./image/Logo (4).png" alt="">
+            <p>In the new era of technology we look a <br>
+                in the future with certainty and pride to <br>
+                for our company and.</p>
+            <div class="socialMedia-icons">
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-whatsapp"></i>
+           </div>
+           </div>
+
+         <div class="footer2">
+            <h5>Pages</h5>
+            
+            <div class="footer-text">
+               <p><a href="">Home </a></p>
+               <p><a href="">About </a></p>
+               <p><a href="">Menu </a></p>
+               <p><a href="">Pricing </a></p>
+               <p><a href="">Blog </a></p>
+               <p><a href="">Contact </a></p>
+               <p><a href="">Delivery </a></p>
+            </div>
+         </div>
+
+         <div class="footer2">
+             <h5>Utility Pages</h5>
+
+             <div class="footer-text">
+               <p><a href="">Start Here </a></p>
+               <p><a href="">Styleguide </a></p>
+               <p><a href="">Password Protected </a></p>
+               <p><a href="">404 Not Found </a></p>
+               <p><a href="">Licenses </a></p>
+               <p><a href="">Changelog </a></p>
+               <p><a href="">View More </a></p>
+            </div>
+
+         </div>
+
+         <div class="footer3">
+             <h5>Follow Us On Instagram</h5>
+
+             <img src="./image/img (5).png" alt="">
+         </div>
+    </div>
+
+    <div class="myself">
+      <p>Copyright © 2024 Partha Developer. All Rights Reserved</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- jq -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+          <!-- js -->
+          <script src="./js/file.js"></script>
+          <!-- aos -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+                  AOS.init();
+          </script>
+</body>
+</html>
